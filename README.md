@@ -71,7 +71,11 @@ This is to analyze if there is some trend in prediction survival related to clas
 
 * Below figure will show the Survived/Dead passengers according to Class
 
-   !["CLASS vs SURVIVAL"](https://github.com/gurpreet1998/TITANIC-   ANALYSIS/blob/master/Output%20figures/output_14_1.png)
+   !["CLASS vs SURVIVAL"](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_14_1.png)
+   ##### From the above figure it is clearly visible that 'Class 1 ' were able to survived followed by 'Class 2 'and 'Class 3 '. This trend is there may be because of the priority, higher class will be allowed to evacuate first then followed by other classes.
+   
+   
+   
 
    
 
