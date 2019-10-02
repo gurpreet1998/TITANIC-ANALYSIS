@@ -59,13 +59,19 @@ As we know that some of features have categorical values, so it is better to con
 # DATA ANALYSIS
 ### 1) SURVIVED vs DEAD
 Now, lets start analyzing the data and get some useful insights from it.
-1) Lets see total number of people survied vs dead
+* Lets see total number of people survied vs dead
    ![Survived/Dead](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_9_1.png)
    ##### NOTE : [ 0 : DEAD  1 :Survived ]
    
    ###### `'Passenger's survival Percentage`' = 38.38 %
    ###### `'Passenger's  Death Percentage`' = 61.62 %
+   
+### 2) 'Survivals ' vs 'P_class
+This is to analyze if there is some trend in prediction survival related to class. There is chance that Higher class passenger were given more privilege to evacuate the ship.
 
+* Below figure will show the Survived/Dead passengers according to Class
+
+   ![](https://github.com/gurpreet1998/TITANIC-   ANALYSIS/blob/master/Output%20figures/output_14_1.png)
 
 
    
