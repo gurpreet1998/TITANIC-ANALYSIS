@@ -14,17 +14,18 @@ In this contest, we ask you to complete the analysis of what sorts of people wer
 
 #### Data cleaning:
 Titanic data consist of following features:
-1) `'PassengerId`'
-2) `'Survived`'
-3) `'Pclass`'
-4) `'Name`'
-5) `'Sex`'
-6) `'Age`'
-7) `'SibSp`'
-8) `'Parch`'
-9) `'Ticket`'
-10) `'Fare`'
-11) `'Cabin`'
+1) `'PassengerId`'  --- text
+2) `'Survived`'     --- categorical
+3) `'Pclass`'       --- Categ
+4) `'Name`'         --- text
+5) `'Sex`'          --- Categorical
+6) `'Age`'          --- Continuous 
+7) `'SibSp`'        --- continuous
+8) `'Parch`'        --- continuous
+9) `'Ticket`'       --- Text
+10) `'Fare`'        --- continuous
+11) `'Cabin`'       --- text
+12) `'Embarked`'    --- categorical
 ##### IN TRAINING DATA
 * `'Age`'   :- This attribute has `'19.87%`' null values
 * `'Cabin`' :- This attribute has most of the missing values `'77.10 %`'
@@ -43,8 +44,33 @@ Pclass and Sex in Pclass. Accorindly we can add the values.
  As of now, we has choose 2nd method
  
  #### Method for calculating mean Age missing values :
- In this approach, Passsengers are into Sex according to there class and Age is recorded for each group of people.
+ In this approach, Passsengers are grouped into Sex according to there respective class then Mean Age is recorded for each group of people.
+ See this figure below to have better understanding. 
 ![AGE-CLASS-SEX](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_51_1.png)
+
+### For calulating Fare missing value:
+Beacause it is only one missing value , we noticed that value to which class it belong to (Pclass = 3), accordingly we calulated the mean of the Fare of class 3. Then assigned the value to missing spot.
+   * Mean_value is = $ 12.46
+   which is quit justifiable.
+
+## Label Encoding
+As we know that some of features have categorical values, so it is better to convert it using Label_encoder. 
+
+# DATA ANALYSIS
+### SURVIVED vs DEAD
+Now, lets start analyzing the data and get some useful insights from it.
+1) Lets see total number of people survied vs dead
+   ![Survived/Dead](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_9_1.png)
+   ##### NOTE : [ 0 : DEAD  1 :Survived ]
+   
+   ###### `'Passenger's survival Percentage`' = 38.38 %
+   ###### `'Passenger's  Death Percentage`' = 61.62 %
+
+
+
+   
+
+
 
 
  
