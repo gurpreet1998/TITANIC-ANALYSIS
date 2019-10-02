@@ -43,8 +43,8 @@ Pclass and Sex in Pclass. Accorindly we can add the values.
  As of now, we has choose 2nd method
  
  #### Method for calculating mean Age missing values :
- In this approach, Passsengers are into Sex according to there class and Age is recorded for each group of people (Refere to figure in Notebook) 
-![Image description](link-to-image)
+ In this approach, Passsengers are into Sex according to there class and Age is recorded for each group of people.
+![AGE-CLASS-SEX](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_51_1.png)
 
 
  
