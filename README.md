@@ -71,8 +71,7 @@ This is to analyze if there is some trend in prediction survival related to clas
 
 * Below figure will show the Survived/Dead passengers according to Class
 
-   ![](https://github.com/gurpreet1998/TITANIC-   ANALYSIS/blob/master/Output%20figures/output_14_1.png)
-
+   !["CLASS vs SURVIVAL"](https://github.com/gurpreet1998/TITANIC-   ANALYSIS/blob/master/Output%20figures/output_14_1.png)
 
    
 
