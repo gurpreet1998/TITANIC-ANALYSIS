@@ -57,7 +57,7 @@ Beacause it is only one missing value , we noticed that value to which class it 
 As we know that some of features have categorical values, so it is better to convert it using Label_encoder. 
 
 # DATA ANALYSIS
-### SURVIVED vs DEAD
+### 1) SURVIVED vs DEAD
 Now, lets start analyzing the data and get some useful insights from it.
 1) Lets see total number of people survied vs dead
    ![Survived/Dead](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_9_1.png)
