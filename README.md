@@ -43,7 +43,7 @@ Pclass and Sex in Pclass. Accorindly we can add the values.
  
  As of now, we has choose 2nd method
  
- #### Method for calculating mean Age missing values :
+ #### Method for calculating Age missing values :
  In this approach, Passsengers are grouped into Sex according to there respective class then Mean Age is recorded for each group of people.
  See this figure below to have better understanding. 
 ![AGE-CLASS-SEX](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_51_1.png)
@@ -72,11 +72,16 @@ This is to analyze if there is some trend in prediction survival related to clas
 * Below figure will show the Survived/Dead passengers according to Class
 
    !["CLASS vs SURVIVAL"](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_14_1.png)
-   ##### From the above figure it is clearly visible that 'Class 1 ' were able to survived followed by 'Class 2 'and 'Class 3 '. This trend is there may be because of the priority, higher class will be allowed to evacuate first then followed by other classes.
-   
-   
+   ##### From the above figure it is clearly visible that 'Class 1 ' passengers were able to survive followed by 'Class 2 'and 'Class 3 ' passengers. This trend is there may be because of the priority, higher class passengers will be allowed to evacuate first then followed by other classes.
    
 
+* Lets, check the distribution of 'Males' and 'Females' in each class and there survival rate
+  !["CLASS vs SURVIVAL"](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_16_1.png)
+  
+  ##### The above figure shows the similar pattern like that of P_class vs survival. This figure represents that females were given more importance then men in there respective class. Similiar is applicable to men.
+  
+  
+  
    
 
 
