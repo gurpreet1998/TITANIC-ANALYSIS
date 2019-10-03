@@ -193,6 +193,7 @@ Therefore, to deal with this situation NORMALIZATION is must. For this we ususal
 * To deal with Overfitting we can do Regularization.
    
 
+## KAGGLE SCORE: 0.7755 
  
 
  
