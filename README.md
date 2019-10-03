@@ -60,7 +60,8 @@ As we know that some of features have categorical values, so it is better to con
 ### 1) SURVIVED vs DEAD
 Now, lets start analyzing the data and get some useful insights from it.
 * Lets see total number of people survied vs dead
-   ![Survived/Dead](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_9_1.png)
+  ![Survived/Dead](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_9_1.png)
+   
    ##### NOTE : [ 0 : DEAD  1 :Survived ]
    
    ###### `'Passenger's survival Percentage`' = 38.38 %
