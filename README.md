@@ -179,7 +179,7 @@ Therefore, to deal with this situation NORMALIZATION is must. For this we ususal
  * Quadractic Discriminant Analysis
  
  !["Age group vs Survived"](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/output_106_4.png)
-
+!["Age group vs Survived"](https://github.com/gurpreet1998/TITANIC-ANALYSIS/blob/master/Output%20figures/metrics%20table)
  
 ### Analysis Of Result
 
